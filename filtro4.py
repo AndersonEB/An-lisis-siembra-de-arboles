@@ -4,6 +4,6 @@ filtro4= tabla[(tabla["Vereda"]=="Quitasol")]
 print (filtro4)
 
 archivoHTML=filtro4.to_html()
-archivo=open("tablafiltro4.html","w")
+archivo=open("tablafiltro4.html","w", encoding="utf-8")
 archivo.write(archivoHTML)
 archivo.close()
