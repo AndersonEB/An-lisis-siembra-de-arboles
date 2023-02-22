@@ -1,0 +1,24 @@
+.fondo {
+    background-image: url(/img/belmira2.jpg);
+    position: absolute;
+    width: 100%;
+    height: 125%;
+}
+
+
+.letra1{
+    color: black;
+    text-align: center;  
+}
+
+.btn1{
+    position: relative;
+    left: 45%;
+}
+
+
+
+.imgb{
+width: 100%;
+height: 100%;
+}
