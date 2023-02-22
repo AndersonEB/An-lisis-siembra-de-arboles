@@ -5,3 +5,13 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.linea1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    
+}
