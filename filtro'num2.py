@@ -9,3 +9,8 @@ print(filtro2)
 
 #analisis
 # Se puede analizar que el número promedio de árboles es de 12,040 en un área promedio de 28.63 hectáreas, con una desviación estándar muy alta de 41,371 árboles y 82.7 hectáreas. También se puede observar que la cantidad mínima de árboles es de 32, y la cantidad máxima 185823.
+
+archivoHTML=filtro2.to_html()
+archiviGenerado=open("filtro2.html","w",encoding="utf-8")
+archiviGenerado.write(archivoHTML)
+archiviGenerado.close()
