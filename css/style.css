@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    margin: 0;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#santafe{
+    background-image: url(../imagenes/parque\ santa\ fe.jpg);
+}
+
+#yarumal{
+    background-image: url(../imagenes/parque\ yarumal.jpg);
+}
+
+#caucasia{
+    background-image: url(../imagenes/parque\ caucasia.jpeg);
+}
+
+
+.columnas{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
