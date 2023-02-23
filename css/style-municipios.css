@@ -6,7 +6,7 @@ body{
 .banner{
     margin: 0;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -22,6 +22,17 @@ body{
     background-image: url(../img/parque\ caucasia.jpeg);
 }
 
+#bello{
+    background-image: url(/img/bello.jpeg);
+}
+
+#caramanta{
+    background-image: url(/img/caramanta1.jpg);
+}
+
+#belmira{
+    background-image: url(../img/belmira.jpg);
+}
 
 .columnas{
     margin-top: 10%;
@@ -30,25 +41,14 @@ body{
     flex-direction: row;
 }
 
-.fondo {
-    background-image: url(../img/belmira.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-
 .letra1{
     color: black;
     text-align: center;
 }
 
-.btn1{
-    position: relative;
-    left: 45%;
+.card{
+    width: 18rem;
 }
-
-
 
 .imgb{
 width: 100%;
