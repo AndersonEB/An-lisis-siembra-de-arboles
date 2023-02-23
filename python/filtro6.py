@@ -1,4 +1,4 @@
-import pandas as pd 
+import pandas as pd
 data=pd.read_csv("./siembras.csv")
 
 #Encontrar los datos de la vereda mallarino del municipio de Yarumal

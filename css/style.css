@@ -1,17 +1,67 @@
 body{
-    margin: 0;
-    padding: 0;
-    
-}
-
-.fondo {
-    background-image: url(/img/belmira2.jpg);
+    background-image: url(../img/fondo-plantas3.jpg);
+    background-position:center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+.banner{
+    width: 100%;
+    background-image: url("../img/Antioquia-banner.avif");
+    padding: 15%;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container{
+    margin-bottom: 20px;
+    background-color: rgb(240, 255, 247);
+    padding: 0;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.linea1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#imgarbol img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 
 }
 
-.imgb{
-width: 100%;
-height: 100%;
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linea1 img{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+.columna{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna h2{
+    margin-bottom: 40px;
+}
+
+.pie{
+    align-items: center;
+    text-align: justify;
 }
