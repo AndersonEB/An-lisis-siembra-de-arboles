@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    margin: 0;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#santafe{
+    background-image: url(../img/parque\ santa\ fe.jpg);
+}
+
+#yarumal{
+    background-image: url(../img/parque\ yarumal.jpg);
+}
+
+#caucasia{
+    background-image: url(../img/parque\ caucasia.jpeg);
+}
+
+
+.columnas{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.fondo {
+    background-image: url(../img/belmira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.letra1{
+    color: black;
+    text-align: center;
+}
+
+.btn1{
+    position: relative;
+    left: 45%;
+}
+
+
+
+.imgb{
+width: 100%;
+height: 100%;
+}

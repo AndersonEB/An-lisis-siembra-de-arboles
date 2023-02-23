@@ -1,4 +1,5 @@
 import pandas as pd
+
 tabla = pd.read_csv("./Siembras.csv")
 filtro4= tabla[(tabla["Vereda"]=="Quitasol")]
 print (filtro4)
