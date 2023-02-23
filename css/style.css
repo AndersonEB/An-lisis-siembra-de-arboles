@@ -35,13 +35,13 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
-
 }
 
 .carta{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 18rem;
 }
 
 .linea1 img{
@@ -57,5 +57,6 @@ body{
 }
 
 .columna h2{
+    margin: auto;
     margin-bottom: 40px;
 }
