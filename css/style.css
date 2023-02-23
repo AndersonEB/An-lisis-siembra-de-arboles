@@ -5,7 +5,6 @@ body{
     background-attachment: fixed;
 }
 
-
 .banner{
     width: 100%;
     background-image: url("../img/Antioquia-banner.avif");
@@ -59,9 +58,4 @@ body{
 
 .columna h2{
     margin-bottom: 40px;
-}
-
-.pie{
-    align-items: center;
-    text-align: justify;
 }
