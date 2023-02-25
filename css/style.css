@@ -3,6 +3,7 @@ body{
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .banner{
@@ -20,6 +21,12 @@ body{
     padding: 0;
     width: 100%;
     border-radius: 30px;
+}
+
+main{
+    font-family: 'Noto Serif Tamil', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shantell Sans', cursive;
 }
 
 .linea1{

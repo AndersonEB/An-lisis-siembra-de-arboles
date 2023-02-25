@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Noto Serif Tamil', serif;
 }
 
 #bodyimg{
@@ -70,13 +69,11 @@ body{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 10px;
-}
-
-.columnas{
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Noto Serif Tamil', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Shantell Sans', cursive;
 }
 
 .card{
@@ -84,42 +81,36 @@ body{
 }
 
 #carta{
-    margin: auto;
-
-}
-
-.tarjetas{
     display: flex;
+    margin: auto;
     flex-direction: row;
     margin-bottom: 20px;
 }
 
-.tarjetas div{
-    display: flex;
+#carta div{
+    display:flex;
+    align-items: center;
     flex-direction: column;
 }
 
-.tarjetas div h2{
-    margin:auto;
+#carta div h2{
     margin-bottom: 20px;
     font-weight: bold;
-    font-family: Calibri, 'Trebuchet MS', sans-serif
 }
 
-.tarjetas p{
-    text-align: justify;
+#carta p{
     margin: 0;
+    padding: 0;
 }
 
-.tarjetas img{
+#carta img{
     border-radius: 10px;
     margin-right: 20px;
-    width: 45%;
+    width: 60%;
 }
 
 #parrafo{
     margin: auto;
-    text-align: justify;
 }
 
 iframe {
