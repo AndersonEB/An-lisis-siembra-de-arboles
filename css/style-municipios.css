@@ -1,25 +1,34 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Noto Serif Tamil', serif;
+}
+
+#bodyimg{
+    background-image: url(../img/fondo\ plantas.avif);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .banner{
-    margin: 0;
-    background-size: cover;
+    width: 100%;
+    padding: 15%;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 #santafe{
-    background-image: url(../img/parque\ santa\ fe.jpg);
+    background-image: url(../img/parque\ santa\ fe.png);
 }
 
 #yarumal{
-    background-image: url(../img/parque\ yarumal.jpg);
+    background-image: url(../img/Yarumal2-1606x902-3212x1804.jpg);
 }
 
 #caucasia{
-    background-image: url(../img/parque\ caucasia.jpeg);
+    background-image: url(../img/parque-caucasia3.jpg);
 }
 
 #bello{
@@ -34,6 +43,35 @@ body{
     background-image: url(../img/belmira.jpg);
 }
 
+.letra1{
+    color: black;
+    text-align: center;
+}
+
+.imgb{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    margin-bottom: 20px;
+    background-color: rgb(240, 255, 247);
+    padding: 0;
+    width: 100%;
+    border-radius: 30px;
+}
+
+#listaC{
+    color: white;
+}
+
+.contenido{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 .columnas{
     margin-top: 10%;
     display: flex;
@@ -41,16 +79,58 @@ body{
     flex-direction: row;
 }
 
-.letra1{
-    color: black;
-    text-align: center;
-}
-
 .card{
     width: 18rem;
 }
 
-.imgb{
-width: 100%;
-height: 100%;
+#carta{
+    margin: auto;
+
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.tarjetas div{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas div h2{
+    margin:auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tarjetas p{
+    text-align: justify;
+    margin: 0;
+}
+
+.tarjetas img{
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 45%;
+}
+
+#parrafo{
+    margin: auto;
+    text-align: justify;
+}
+
+iframe {
+    width: 100%;
+    height: 221px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#btn1{
+    display: flex;
+    justify-content: center;
 }

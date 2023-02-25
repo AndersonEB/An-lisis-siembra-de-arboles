@@ -37,6 +37,11 @@ body{
     border-radius: 5px;
 }
 
+.col-4 p{
+    text-align: justify;
+    margin-right: 10px;
+}
+
 .carta{
     display: flex;
     flex-direction: column;
