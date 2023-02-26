@@ -20,10 +20,12 @@ body{
 
 #santafe{
     background-image: url(../img/parque\ santa\ fe.png);
+    background-position: bottom;
 }
 
 #yarumal{
     background-image: url(../img/Yarumal2-1606x902-3212x1804.jpg);
+    background-position: top;
 }
 
 #caucasia{
