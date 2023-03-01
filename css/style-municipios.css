@@ -18,16 +18,22 @@ body{
     background-attachment: fixed;
 }
 
-#santafe{
-    background-image: url(../img/parque\ santa\ fe.png);
+#yarumal{
+    background-image: url(../img/yarumal1.jpg);
+    background-position: top;
 }
 
-#yarumal{
-    background-image: url(../img/Yarumal2-1606x902-3212x1804.jpg);
+#santafe{
+    background-image: url(../img/parque\ santa\ fe.png);
+    background-position: bottom;
 }
 
 #caucasia{
-    background-image: url(../img/parque-caucasia3.jpg);
+    background-image: url(../img/caucasia2.png);
+}
+
+#belmira{
+    background-image: url(../img/belmira.jpg);
 }
 
 #bello{
@@ -36,10 +42,7 @@ body{
 
 #caramanta{
     background-image: url(/img/caramanta1.jpg);
-}
-
-#belmira{
-    background-image: url(../img/belmira.jpg);
+    background-position: bottom;
 }
 
 .letra1{
@@ -58,6 +61,7 @@ body{
     padding: 0;
     width: 100%;
     border-radius: 30px;
+    padding-bottom: 15px;
 }
 
 #listaC{
